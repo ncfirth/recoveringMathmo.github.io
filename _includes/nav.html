@@ -4,8 +4,8 @@
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
 			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Home</a></li>
-			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="/about.html">About</a></li>
-			<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="/contact.html">Contact</a></li>
+			<li {% if current[1] == 'about.html' %}class='current'{% endif %}><a href="/about.html">About</a></li>
+			<li {% if current[1] == 'contact.html' %}class='current'{% endif %}><a href="/contact.html">Contact</a></li>
 			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog">Blog</a></li>
 		</ul>
 	</nav>
